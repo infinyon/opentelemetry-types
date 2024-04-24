@@ -1,7 +1,8 @@
 [package]
 name = "opentelemetry-types"
-version = "0.1.0"
+version = "0.0.0"
 edition = "2021"
+publish = false
 
 [lib]
 doctest = false
@@ -13,7 +14,7 @@ metrics = []
 logs = []
 
 [dependencies]
-prost = "0.11.0"
+prost = "0.12.4"
 
 [build-dependencies]
-prost-build = "0.11.1"
+prost-build = "0.12.4"
