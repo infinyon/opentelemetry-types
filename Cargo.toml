@@ -14,7 +14,7 @@ metrics = []
 logs = []
 
 [dependencies]
-prost = "0.12.4"
+prost = "0.13.5"
 
 [build-dependencies]
-prost-build = "0.12.4"
+prost-build = "0.13.5"
